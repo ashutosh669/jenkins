@@ -6,7 +6,7 @@ pipeline {
 	agent any
     
     stages {
-       stages('git checkout') {
+       stage('git checkout') {
             steps{
                   git 'https://github.com/ashutosh669/jenkins.git'
         
